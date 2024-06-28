@@ -1,4 +1,4 @@
-Predicting the NBA champion with a Linear Regression Machine Learning Model
+#Predicting the NBA champion with a Linear Regression Machine Learning Model
 
 I learned about linear regression machine learning models recently and I wanted to practice that knowledge on a subject that I care a lot about, the NBA. Every year since middle school, I always stayed up to date on the latest NBA news, watching NBA games, and most relevantly, looking at team/player statistics. I was a big NBA stathead growing up. Big, impactful numbers always caught my attention in the NBA. I'd always look at the NBA website to see the different updates in player/team statistics. Due to my fascination and knowledge on NBA statistics, I thought that I could best apply that knowledge into this machine learning model, to predict who would win the NBA championship.
 
