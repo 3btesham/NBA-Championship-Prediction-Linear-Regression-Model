@@ -2,7 +2,7 @@
 
 I learned about linear regression machine learning models recently and I wanted to practice that knowledge on a subject that I care a lot about, the NBA. Every year since middle school, I always stayed up to date on the latest NBA news, watching NBA games, and most relevantly, looking at team/player statistics. I was a big NBA stathead growing up. Big, impactful numbers always caught my attention in the NBA. I'd always look at the NBA website to see the different updates in player/team statistics. Due to my fascination and knowledge on NBA statistics, I thought that I could best apply that knowledge into this machine learning model, to predict who would win the NBA championship.
 
-How it was made:
+## How it was made:
 - I acquired regular season data from all 30 teams in 15 random seasons from 1999 to 2024. 15 was an arbitrarily chosen number. I didn't want to use all the seasons in NBA history because the model could potentially memorize the winner from each season. I also tried to stick to more recent seasons for data because the data during the 2000s is far more reliable than the data from earlier in NBA history. The data I acquired for each team was:
   - Average Age: Really young teams typically did not end up winning the championship, while incredibly old teams were far too burnt out to make any noise most of the time
   - Offensive Rating: How good a team's offense was (higher rating meant better offense)
@@ -35,11 +35,11 @@ How it was made:
 
 - Afterwards, I trained it using the training data. The training went relatively fast because there really was not much data (only 450 different teams, 15 batches of 30 teams each).
 
-Results:
+## Results:
 - The model had a supposed 97% accuracy after testing it with the testing dataset. However I believe this lacks context. The model was very good at telling teams who could not win the championship, which was the vast majority of teams inputted. Thus, the accuracy isn't really a reflection on the model's ability to tell who would win the championship, but more on its ability to tell you who would not.
 - I ran some personal tests with the prediction method on the dataset, and I personally got a 50% hit rate on the model's prediction for the championship winner. To determine the model's choice for a winner, I chose the team who had the best probability of winning the championship according to the model.
 
-Reflection:
+## Reflection:
 I am very pleased with this project so far. I did not come into programming this model with the expectation that my model was going to be a revolutionary, game changing model. I learned how to apply linear regression machine learning to a subject I am passionate about, and I am very satisfied with that. This was an incredibly difficult but fun experience overall. However, I do want to improve upon the model's odds on picking the championship winner in the future (for fun and other reasons...). Some things I could improve upon include:
 - Using more NBA seasons for data, more seasons allow for the model to better predict future winners
 - Researching other advanced metrics that reflect a team's ability to win a championship (all-stars, balance, playoff experience, etc.)
