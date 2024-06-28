@@ -1,1 +1,1 @@
-# nba_championship_winner_prediction_model
+Predicting the NBA champion with a Linear Regression Machine Learning Model
